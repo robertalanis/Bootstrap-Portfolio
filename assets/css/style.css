@@ -63,7 +63,7 @@ h3 {
   border-bottom: 2px solid #cccccc;
 }
 
-#logo {
+.navbar-brand {
   float: left;
   width: 250px;
   height: 90px;
@@ -77,12 +77,12 @@ h3 {
   background: #4aaaa5;
 }
 
-nav {
+.nav-item {
   float: right;
   margin-top: 25px;
 }
 
-nav a {
+.nav-link {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -92,7 +92,7 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+..nav-link:first-child {
   border-left: 0 none;
 }
 
