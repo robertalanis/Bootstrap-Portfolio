@@ -92,7 +92,7 @@ h3 {
   border-left: 1px solid #efefef;
 }
 
-..nav-link:first-child {
+.nav-link:first-child {
   border-left: 0 none;
 }
 
@@ -152,9 +152,7 @@ h3, h2 {
   overflow: auto;
 }
 
-.work:nth-child(even) {
-  margin-right: 40px;
-}
+
 
 .work img {
   width: 100%;
@@ -230,4 +228,8 @@ input[type=submit] {
 
 .navbar {
   padding: 0px;
+}
+
+.page-title {
+  font-weight: 540;
 }
