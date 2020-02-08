@@ -96,6 +96,14 @@ h3 {
   border-left: 0 none;
 }
 
+.navbar{
+  padding: 0px;
+}
+
+.logo {
+  text-align: center;
+}
+
 /* footer */
 
 footer {
@@ -180,10 +188,13 @@ h3, h2 {
 
 #contact-form ul {
   margin-bottom: 20px;
+  padding-inline-start: 0px;
+
 }
 
 #contact-form li {
   margin-bottom: 10px;
+  list-style-type: none;
 }
 
 label,
@@ -214,4 +225,9 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+
+.navbar {
+  padding: 0px;
 }
